@@ -1,5 +1,6 @@
 from appium import webdriver
 from appium.webdriver.common.appiumby import AppiumBy
+import pytest
 
 desired_capabilities = dict(
     platformName='Android',
